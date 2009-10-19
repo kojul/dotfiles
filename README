@@ -6,11 +6,11 @@
  | other miscellaneous |  (@)                                  (@)
  | configurations, vim |   '------------------------------------'
  | plugins/colors, and |
- | more to come as i   |
- | go about my rounds  |
- | across my trusty    |
- | lands, gathering    |
- | what i have lost    |
- | over the many years |
-(@)                   (@)
- '---------------------'
+ | more to come as i   |   .------------------------------------.
+ | go about my rounds  |  (@)                                  (@)
+ | across my trusty    |   | in case i forget:                  |
+ | lands, gathering    |   |  & git clone this-repo             |
+ | what i have lost    |   |  & run setup                       |
+ | over the many years |   |  & enjoy...                        |
+(@)                   (@) (@)                                  (@)
+ '---------------------'   '------------------------------------'
