@@ -1,0 +1,29 @@
+urxvt.depth:       32
+*foreground:       #7f7f7f
+*background:       #000000
+*color0:           #000000
+*color1:           #9e1828
+*color2:           #aece92
+*color3:           #968a38
+*color4:           #414171
+*color5:           #963c59
+*color6:           #418179
+*color7:           #bebebe
+*color8:           #666666
+*color9:           #cf6171
+*color10:          #c5f779
+*color11:          #fff796
+*color12:          #4186be
+*color13:          #cf9ebe
+*color14:          #71bebe
+*color15:          #ffffff
+urxvt.font:        xft:Crisp:antialias=false:size=13
+urxvt.boldFont:    xft:Crisp:antialias=false:size=13
+urxvt.italicFont:  xft:Crisp:antialias=false:size=13
+! urxvt.font:        xft:terminus:antialias=false:size=14
+! urxvt.boldFont:    xft:terminus:antialias=false:size=14
+! urxvt.italicFont:  xft:terminus:antialias=false:size=14
+urxvt.mapAlert:    true
+urxvt.scrollBar:   false
+urxvt.visualBell:  true
+urxvt.saveLines:   16384
