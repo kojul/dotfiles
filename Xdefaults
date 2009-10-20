@@ -27,3 +27,5 @@ urxvt.mapAlert:    true
 urxvt.scrollBar:   false
 urxvt.visualBell:  true
 urxvt.saveLines:   16384
+urxvt.keysym.Home: \033[1~
+urxvt.keysym.End: \033[4~
