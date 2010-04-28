@@ -1,22 +1,15 @@
 servers = (
-  { address = "irc.ubuntu.com"; chatnet = "Ubuntu"; port = "8001"; },
-  { address = "irc.stealth.net"; chatnet = "IRCnet"; port = "6668"; },
-  { address = "irc.efnet.org"; chatnet = "EFNet"; port = "6667"; },
-  { 
-    address = "irc.undernet.org";
-    chatnet = "Undernet";
-    port = "6667";
-  },
-  { address = "irc.dal.net"; chatnet = "DALnet"; port = "6667"; },
-  { 
-    address = "irc.quakenet.org";
-    chatnet = "QuakeNet";
-    port = "6667";
-  },
-  { address = "silc.silcnet.org"; chatnet = "SILC"; port = "706"; },
   {
     address = "irc.freenode.net";
     chatnet = "Freenode";
+    port = "6667";
+    use_ssl = "no";
+    ssl_verify = "no";
+    autoconnect = "yes";
+  },
+  {
+    address = "irc.goto10.org";
+    chatnet = "Goto10";
     port = "6667";
     use_ssl = "no";
     ssl_verify = "no";
@@ -25,53 +18,20 @@ servers = (
 );
 
 chatnets = {
-  IRCnet = {
-    type = "IRC";
-    max_kicks = "4";
-    max_msgs = "5";
-    max_whois = "4";
-    max_query_chans = "5";
-  };
-  EFNet = { 
-    type = "IRC";
-    max_kicks = "4";
-    max_msgs = "3";
-    max_whois = "1";
-  };
-  Undernet = {
-    type = "IRC";
-    max_kicks = "1";
-    max_msgs = "3";
-    max_whois = "30";
-  };
-  DALnet = {
-    type = "IRC";
-    max_kicks = "4";
-    max_msgs = "3";
-    max_whois = "30";
-  };
-  QuakeNet = {
-    type = "IRC";
-    max_kicks = "1";
-    max_msgs = "3";
-    max_whois = "30";
-  };
-  SILC = { type = "SILC"; };
-  Ubuntu = { type = "IRC"; };
   Freenode = {
     type = "IRC";
     autosendcmd = "/msg nickserv identify cheesemonster;wait 2000";
   };
+  Goto10 = { 
+    type = "IRC"; 
+    autosendcmd = "/msg nickserv identify 5nuff4luff4gu5;wait 2000";
+  };
 };
 
 channels = (
-  { name = "#nakedmud"; chatnet = "Freenode"; autojoin = "yes"; },
+  { name = "#puredyne"; chatnet = "Goto10"; autojoin = "yes"; },
   { name = "#vim"; chatnet = "Freenode"; autojoin = "yes"; },
-  { name = "#perl"; chatnet = "Freenode"; autojoin = "yes"; },
-  { name = "#ruby"; chatnet = "Freenode"; autojoin = "yes"; },
-  { name = "#rails"; chatnet = "Freenode"; autojoin = "yes"; },
-  { name = "#git"; chatnet = "Freenode"; autojoin = "yes"; },
-  { name = "#gentoo"; chatnet = "Freenode"; autojoin = "yes"; }
+  { name = "#ruby"; chatnet = "Freenode"; autojoin = "yes"; }
 );
 
 aliases = {

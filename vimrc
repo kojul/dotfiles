@@ -1,12 +1,13 @@
 syntax on
-colorscheme kojul
+" colorscheme kojul
+colorscheme slate
 filetype plugin indent on
 
 " Visual bell
 set vb t_vb=
 
 " 256 color support
-set t_Co=256
+" set t_Co=256
 
 " No vi compatibility
 set nocompatible

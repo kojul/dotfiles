@@ -17,9 +17,9 @@ urxvt.depth:       32
 *color13:          #cf9ebe
 *color14:          #71bebe
 *color15:          #ffffff
-urxvt.font:        xft:Crisp:antialias=false:size=13
-urxvt.boldFont:    xft:Crisp:antialias=false:size=13
-urxvt.italicFont:  xft:Crisp:antialias=false:size=13
+urxvt.font:        xft:Anonymous Pro:antialias=false:size=10
+urxvt.boldFont:    xft:Anonymous Pro:antialias=false:size=10
+urxvt.italicFont:  xft:Anonymous Pro:antialias=false:size=10
 ! urxvt.font:        xft:terminus:antialias=false:size=14
 ! urxvt.boldFont:    xft:terminus:antialias=false:size=14
 ! urxvt.italicFont:  xft:terminus:antialias=false:size=14

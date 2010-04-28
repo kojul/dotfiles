@@ -20,8 +20,10 @@
       [exec] (burning canine) {firefox}
       [exec] (edit stuff) {urxvt -e vim} 
       [exec] (looky objects) {gimp} 
+      [exec] (talking things) {pidgin} 
       [exec] (mixin the sounds) {urxvt -e alsamixer} 
 [submenu] (box of flux)
+      [exec] (edit menu) {urxvt -e vim ~/dotfiles/fluxbox/menu}
       [config] (configure) 
 [submenu] (styles)
       [include] (/usr/share/fluxbox/menu.d/styles/) 
