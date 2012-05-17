@@ -6,14 +6,6 @@ servers = (
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
-  },
-  {
-    address = "irc.goto10.org";
-    chatnet = "Goto10";
-    port = "6667";
-    use_ssl = "no";
-    ssl_verify = "no";
-    autoconnect = "yes";
   }
 );
 
@@ -22,16 +14,12 @@ chatnets = {
     type = "IRC";
     autosendcmd = "/msg nickserv identify cheesemonster;wait 2000";
   };
-  Goto10 = { 
-    type = "IRC"; 
-    autosendcmd = "/msg nickserv identify 5nuff4luff4gu5;wait 2000";
-  };
 };
 
 channels = (
-  { name = "#puredyne"; chatnet = "Goto10"; autojoin = "yes"; },
   { name = "#vim"; chatnet = "Freenode"; autojoin = "yes"; },
-  { name = "#ruby"; chatnet = "Freenode"; autojoin = "yes"; }
+  { name = "#ruby"; chatnet = "Freenode"; autojoin = "yes"; },
+  { name = "#rails"; chatnet = "Freenode"; autojoin = "yes"; }
 );
 
 aliases = {
