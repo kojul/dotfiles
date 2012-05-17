@@ -7,7 +7,7 @@ filetype plugin indent on
 set vb t_vb=
 
 " 256 color support
-" set t_Co=256
+set t_Co=256
 
 " No vi compatibility
 set nocompatible
@@ -53,9 +53,9 @@ set sm
 
 " Fold by indent on things larger than 5 lines
 " By default open 4 levels
-set fdm=indent
-set fml=5
-set fdl=5
+" set fdm=indent
+" set fml=5
+" set fdl=5
 
 " Shows invisible characters
 " eol      + end of line
@@ -70,17 +70,17 @@ set lcs=eol:%,tab:?~,extends:>,precedes:<
 " : + # of commands
 " @ + # of input
 " / + # of searches
-set vi='1000,:200,@200,/200
+set vi='100,:2000,@2000,/2000
 
 """""""""""""""""""""
 " Personal mappings "
 """""""""""""""""""""
 
-" Clear all trailing spaces \z
-map \z :%s/\s\+$//<CR>
+" Clear all trailing spaces \cx
+map \cx :%s/\s\+$//<CR>
 
-" Clear all leading spaces with \x
-map \x :%s/^\s\+//<CR>
+" Clear all leading spaces with \cz
+map \cz :%s/^\s\+//<CR>
 
 " Clear search highlighting with \cs
 map \cs :nohls<CR>
