@@ -105,3 +105,4 @@ map \t, :tabp<CR>
 """""""""""""""""""""
 
 au SessionLoadPost * ru .vimrc
+au BufRead,BufNewFile *.rabl setf ruby
