@@ -2,6 +2,7 @@ syntax on
 " colorscheme kojul
 colorscheme slate
 filetype plugin indent on
+set encoding=utf8
 
 " Visual bell
 set vb t_vb=
