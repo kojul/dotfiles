@@ -36,4 +36,6 @@ plugins=(rails git ruby)
 
 source $ZSH/oh-my-zsh.sh
 
+umask 002
+
 # Customize to your needs...
